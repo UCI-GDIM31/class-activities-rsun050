@@ -2,6 +2,7 @@
 ## Devlogs
 ### W1
 <a style="font-size:70%;"><i>hello world</i></a>
+
 Write your W1 activity Devlog here. <a style="font-size:70%"><- ok</a>
 
 <b style="font-size:120%">Prompt: In the Hierarchy, move the Camera off of the Cat GameObject, so that it’s no longer a child of the Cat. What happens when you run the game now, and why?</b>
