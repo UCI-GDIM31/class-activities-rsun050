@@ -1,9 +1,13 @@
 # in-class-activities
 ## Devlogs
 ### W1
-hello world
+<a style="font-size:70%;"><i>hello world</i></a>
+Write your W1 activity Devlog here. <a style="font-size:70%"><- ok</a>
 
-Write your W1 activity Devlog here.
+<b style="font-size:120%">Prompt: In the Hierarchy, move the Camera off of the Cat GameObject, so that it’s no longer a child of the Cat. What happens when you run the game now, and why?</b>
+
+The cat moves, but the camera stays still. Since the camera is no longer a 'child object' of the cat, so their positions are not connected.
+<hr>
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
