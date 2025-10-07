@@ -13,7 +13,7 @@ The cat moves, but the camera stays still. Since the camera is no longer a 'chil
 <br><b>2. Why is the _bounce variable an int instead of a float, bool, or string?</b>
 	a. Not `float` because can't have 0.5 of a bounce, although you could have `_bounces + 1.0f`? Not `bool` because we need to keep track of how *many* bounces. Not `string` because text isn't numbers, and you can't do numbers math with text. `int` makes the most sense.
 <br><b>3. The error you got after Step X of Part 2 told you something useful about why that line of code was broken- what was it?</b>
-	a. A lot of times for the "uncomment the right line of code" steps I would forget that I need an f for `float` variables, and I would get an error for some variable type called `double`.
+	a. A lot of times for the "uncomment the right line of code" steps I would forget that I need an f for `float` variables, and I would get an error for some variable type called `double`, then I remembered float needs an "f".
 
 <hr>
 
