@@ -18,6 +18,16 @@ The cat moves, but the camera stays still. Since the camera is no longer a 'chil
 <hr>
 
 ### W3
+Table 6
+1. You’re building a rhythm game, and you’re writing a method named `DidPlayerHitBeat` that tells you whether or not the player accurately hit a beat based on the time that they pressed a key. What would you make the parameters (input) and return type (output) of this method?
+	- I would make the inputs a key press input, and the position of the beat. My tablemates and I discussed and some of us thought it should be what time the key was pressed instead of the position, but I think position would be easier to track, assuming this is the style of rhythm game where the beats move towards an endpoint. You could measure the distance of the beat from the endpoint, and if it's 'close enough', the player hit the beat.
+	- For the output I would make it a `bool`. Since the method's name is *Did*PlayerHitBeat, and the only real way to answer a question 'Did XYZ...?' is a yes or no, meaning a boolean. 
+
+2. With your table mates, come up with a metaphor to explain the relationship between classes and Components with a metaphor. Also describe how methods and member variables factor into that metaphor.  Remember that classes are templates that can become Components; member variables are traits of each class; and methods are things the class can do.
+	 - A class is a baking recipe for a component, and the resultant cake is the Component. The ingredients that go into the 'cake' are like the member variables, and things you can do with the cake are the methods (eat, put in fridge, gift, deliver, etc...).
+
+3. Why do you think the balls get extremely bright, especially in the Scene, if they bounce too many times?
+	 - The balls are likely to get faster and faster as they bounce and move, so they will get brighter and brighter.
 <hr>
 
 ## Open-Source Assets
