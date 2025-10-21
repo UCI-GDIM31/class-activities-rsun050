@@ -46,10 +46,10 @@ Tables 1-10: lines 5, 22, and 25
 
 
 Table 6
-1. What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?
+1. What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?<br>
   a. We added Rigidbodies to Cat and Soccerball since they will be bouncing off of things (each other). We checked Is Trigger on the goal since the ball should be passing through the goal rather than bouncing off of it.
 
-2. IF your game did not work perfectly the first time you tested it, talk about what you had to fix.
+2. IF your game did not work perfectly the first time you tested it, talk about what you had to fix.<br>
   a. We forgot to add the Rigidbody to Cat so the BounceOffWall script wasn't working and the ball was not moving when the cat appeared to touch it.
 
 
