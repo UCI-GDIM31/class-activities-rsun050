@@ -34,25 +34,23 @@ Table 6
 Table 6
 Do your best to describe the following lines of code:
 
-Tables 1-10: lines 5, 22, and 25
-- 5: `[SerializeField] private float _moveSpeed = 1.0f;`
-  a. Declares a private float variable called `_moveSpeed` and gives it the value of 1.0f. [SerializeField] makes it visible in the editor.
+Tables 1-10: lines 5, 22, and 25<br>
+5: `[SerializeField] private float _moveSpeed = 1.0f;`<br>
+Declares a private float variable called `_moveSpeed` and gives it the value of 1.0f. [SerializeField] makes it visible in the editor.
 
-- 22: `float translation = Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;`
-  a. Declares a float variable called `translation` and gives it a value that depends on user input, _moveSpeed, and deltaTime.
+22: `float translation = Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;`<br>
+Declares a float variable called `translation` and gives it a value that depends on user input, _moveSpeed, and deltaTime.
 
-- 25: `transform.Translate(0, 0, translation);`
-  a. Calls the Translate function on a transform Component, passing in 0, 0, and `translation`.
+25: `transform.Translate(0, 0, translation);`<br>
+Calls the Translate function on a transform Component, passing in 0, 0, and `translation`.
 
 
-Table 6
+Table 6<br>
 1. What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?<br>
-
-  a. We added Rigidbodies to Cat and Soccerball since they will be bouncing off of things (each other). We checked Is Trigger on the goal since the ball should be passing through the goal rather than bouncing off of it.
+We added Rigidbodies to Cat and Soccerball since they will be bouncing off of things (each other). We checked Is Trigger on the goal since the ball should be passing through the goal rather than bouncing off of it.
 
 2. IF your game did not work perfectly the first time you tested it, talk about what you had to fix.<br>
-
-  a. We forgot to add the Rigidbody to Cat so the BounceOffWall script wasn't working and the ball was not moving when the cat appeared to touch it.
+We forgot to add the Rigidbody to Cat so the BounceOffWall script wasn't working and the ball was not moving when the cat appeared to touch it.
 
 
 ## Open-Source Assets
