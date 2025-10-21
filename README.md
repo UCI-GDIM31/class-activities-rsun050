@@ -31,7 +31,7 @@ Table 6
 <hr>
 
 ### W4
-Table 6
+Table 6<br>
 Do your best to describe the following lines of code:
 
 Tables 1-10: lines 5, 22, and 25<br>
