@@ -61,6 +61,8 @@ It needs to be a MonoBehaviour class.<br>
 Since we're going to use the NavMeshAgent, we need to GetComponent() that in.<br>
 Since it needs a GameObject as a target, it needs a GameObject variable.<br>
 
+Since we want the Deer to move towards its target, we need to give the NavMeshAgent a destination. If this target is stationary, it is enough to do this in Start(). We need to get the target's transform's position, and pass this in to NavMeshAgent.SetDestination().
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
