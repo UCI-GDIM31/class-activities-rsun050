@@ -52,6 +52,8 @@ We added Rigidbodies to Cat and Soccerball since they will be bouncing off of th
 2. IF your game did not work perfectly the first time you tested it, talk about what you had to fix.<br>
 We forgot to add the Rigidbody to Cat so the BounceOffWall script wasn't working and the ball was not moving when the cat appeared to touch it.
 
+<hr>
+
 ### W5
 What if I try to GetComponent a component that the GameObject doesn't have?<br>
 &emsp;&emsp;- GetComponent() returns null.
