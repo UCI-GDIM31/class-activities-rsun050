@@ -56,6 +56,11 @@ We forgot to add the Rigidbody to Cat so the BounceOffWall script wasn't working
 What if I try to GetComponent a component that the GameObject doesn't have?<br>
 &emsp;&emsp;- GetComponent() returns null.
 
+Plan for the Deer class<br>
+Since it's going to move (ie: transform will change), it needs to be a MonoBehaviour class (aka have a gameObject variable).<br>
+Since it's going to use the NavMesh, it needs a NavMeshAgent component.<br>
+Since it needs a GameObject as a target, it needs a GameObject variable.<br>
+Since it will follow a target, its transform needs to change position every frame, so we need to write something in Update().<br>
 
 ## Open-Source Assets
 ### W1
