@@ -52,6 +52,16 @@ We added Rigidbodies to Cat and Soccerball since they will be bouncing off of th
 2. IF your game did not work perfectly the first time you tested it, talk about what you had to fix.<br>
 We forgot to add the Rigidbody to Cat so the BounceOffWall script wasn't working and the ball was not moving when the cat appeared to touch it.
 
+### W5
+What if I try to GetComponent a component that the GameObject doesn't have?<br>
+&emsp;&emsp;- GetComponent() returns null.
+
+Plan for the Deer class<br>
+It needs to be a MonoBehaviour class.<br>
+Since we're going to use the NavMeshAgent, we need to GetComponent() that in.<br>
+Since it needs a GameObject as a target, it needs a GameObject variable.<br>
+
+Since we want the Deer to move towards its target, we need to give the NavMeshAgent a destination. If this target is stationary, it is enough to do this in Start(). We need to get the target's transform's position, and pass this in to NavMeshAgent.SetDestination().
 
 ## Open-Source Assets
 ### W1
