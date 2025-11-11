@@ -85,6 +85,8 @@ My categories: game idea, gameplay, physics
 
 The code in step 2 was wrong because it was being applied in world (global) space, which would be wrong if the muskrat wasn't facing global forward. Using Transform.Translate() makes the movement be applied in local space. 
 
+also here's a drawing of muskrat<br>
+<img width="2388" height="1668" alt="image" src="https://github.com/user-attachments/assets/e7d0d604-59f5-4818-a13d-c65ae21d9c93" />
 
 
 
