@@ -71,12 +71,20 @@ Since we want the Deer to move towards its target, we need to give the NavMeshAg
 https://docs.google.com/document/d/1IZFJUcFgjnf2ph_xvqjTaqAltUuFe4KMaDIYs-4cPV8/edit?usp=sharing <br>
 My category: Other Tools<br>
 
-
 BatW6 Class Notes:<br>
 1. Needs a speed tunable in inspector: int or float works for the speed, and if it needs to be seen in Inspector we must tag with \[SerializeField\].<br>
 2. Method for stop/start chasing player: make a function that disables/enables the component?<br>
 3. Member variables needed: the Cat GameObject's transform so it can move towards the Cat (need the position of the Cat)<br>
 4. Unity Methods needed: Update to move towards the player<br>
+
+<hr>
+
+### W7
+https://docs.google.com/document/d/1ACCBYMqYrHTf6bSU9TNPsHK5OQnuA3CH1FFEp9_a9kQ/edit?usp=sharing <br>
+My categories: game idea, gameplay, physics
+
+The code in step 2 was wrong because it was being applied in world (global) space, which would be wrong if the muskrat wasn't facing global forward. Using Transform.Translate() makes the movement be applied in local space. 
+
 
 
 
